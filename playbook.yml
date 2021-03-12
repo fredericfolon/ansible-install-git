@@ -1,6 +1,6 @@
 ---
 - name: install git latest version
-  hosts: centos_remote_a
+  hosts: target1
   become: true
   roles:
     - { role: git.role }
